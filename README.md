@@ -1,5 +1,5 @@
 # Flappy-Bird-3D
-Esse é um jogo teste do clássico Flappy Bird, só que em 3D e com algumas melhorias, tente ser o melhor jogador e relembre os velhos tempos:
+Esse é um jogo teste do clássico Flappy Bird, só que em 3D e com algumas melhorias, tente ser o melhor jogador e relembre os velhos tempos, ele tem músicas e sons simples, estilo 8-bit, veja algumas imagens desse jogo, pode jogar e se divertir, o link está logo abaixo das imagens:
 
 Início do Jogo:
 ![image](https://github.com/user-attachments/assets/8f62726f-2ffd-4df6-854b-72f96d448c21)
