@@ -10,6 +10,9 @@ Esse é um jogo teste do clássico Flappy Bird, só que em 3D e com algumas melh
 **Tela de Morte:**
 ![image](https://github.com/user-attachments/assets/c8020738-0ce3-4021-a2bb-952c8a6dfe3d)
 
+**Colete todas as cruz para uma segunda chance:**
+![image](https://github.com/user-attachments/assets/a0dc0509-c7ba-477b-8bad-629de1c759cc)
+
 **Aviso do outro Mundo:**
 ![image](https://github.com/user-attachments/assets/37102713-d694-47b2-8289-35fa099b2bc2)
 
