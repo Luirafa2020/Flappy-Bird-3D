@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="startMenu" class="overlayMenu">
+        <h1>3D Flappy Bird</h1>
+        <p>Click or Press Space to Start</p>
+        <p>(Collect crosses for a second chance!)</p>
+    </div>
+    <div id="scoreDisplay">Score: 0</div>
+    <div id="redemptionEntryMessage" class="overlayMessage" style="display: none;">Os seres celestes te deram uma segunda chance de voar</div>
+    <div id="redemptionSuccessMessage" class="overlayMessage" style="display: none;">Parabéns, você é forte</div>
+    <div id="gameOverMessage" class="overlayMessage" style="display: none;">Game Over! Click to Restart</div>
+    <canvas id="gameCanvas"></canvas>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.163.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="game.js"></script>
+</body>
+</html>

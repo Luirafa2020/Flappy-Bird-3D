@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+#gameCanvas {
+    display: block; /* Remove extra space below canvas */
+    width: 100vw;
+    height: 100vh;
+}
+
+#scoreDisplay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    z-index: 10; /* Ensure it's above the canvas */
+    text-shadow: 1px 1px 2px black; /* Improve readability */
+}
+
+#gameOverMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+    z-index: 20; /* Ensure it's above score and canvas */
+    cursor: pointer; /* Indicate it's clickable */
+}
+
+/* Common style for overlay messages */
+.overlayMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75); /* Slightly darker background */
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 28px; /* Slightly smaller default */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Nicer font */
+    text-align: center;
+    z-index: 20; /* Ensure it's above score and canvas */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Subtle glow */
+    max-width: 80%; /* Prevent message from being too wide */
+}
+
+/* Specific styles if needed, e.g., for game over message */
+#gameOverMessage {
+    font-size: 32px; /* Keep game over slightly larger */
+    cursor: pointer; /* Indicate it's clickable */
+}
+
+#redemptionEntryMessage {
+    font-style: italic;
+    font-size: 30px;
+    background-color: rgba(50, 0, 0, 0.8); /* Darker red background */
+}
+
+#redemptionSuccessMessage {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(0, 50, 0, 0.8); /* Darker green background */
+}
+
+/* Start Menu Style */
+.overlayMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 50, 0.85); /* Dark blue background */
+    padding: 30px 40px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 30; /* Highest priority */
+    box-shadow: 0 0 20px rgba(100, 100, 255, 0.5);
+    border: 2px solid rgba(200, 200, 255, 0.7);
+}
+
+.overlayMenu h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.overlayMenu p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.overlayMenu p:last-child {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-top: 20px;
+}
