@@ -19,4 +19,5 @@ Esse é um jogo teste do clássico Flappy Bird, só que em 3D e com algumas melh
 Link para jogar o jogo:
 https://luirafa2020.github.io/Flappy-Bird-3D/
 
-*Feito com Gemini 2.5 Pro*
+
+Feito com Gemini 2.5 Pro
