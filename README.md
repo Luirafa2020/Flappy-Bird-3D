@@ -20,4 +20,4 @@ Link para jogar o jogo:
 https://luirafa2020.github.io/Flappy-Bird-3D/
 
 
-  Feito com a ajuda do Gemini 2.5 Pro
+-------------------------------Feito com a ajuda do Gemini 2.5 Pro-------------------------------
